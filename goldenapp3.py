@@ -119,11 +119,11 @@ def goldenapp():
      print(maxdist)
 
      #Set threshold for compatibility
-     thr = 0.6*maxdist
+     thr = 0.3*maxdist
      print('Threshold:')
      print(thr)
 
-     #Exclude parties with distance > 0.6 of max distance (threshold)   
+     #Exclude parties with distance > threshold of max distance (threshold)   
      for k in range(0, party_num):
          for j in range(0, party_num): 
              #print(k,j)  
